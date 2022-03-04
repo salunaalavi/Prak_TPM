@@ -24,7 +24,6 @@ class LoginPageState extends State<LoginPage> {
             const Padding(padding: EdgeInsets.only(top: 20.0)),
             const TextField(
               decoration: InputDecoration(
-                prefixIcon: Icon(Icons.person),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.all(
                     Radius.circular(10.0),
@@ -36,7 +35,6 @@ class LoginPageState extends State<LoginPage> {
             const Padding(padding: EdgeInsets.only(top: 20.0)),
             const TextField(
               decoration: InputDecoration(
-                prefixIcon: Icon(Icons.security),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.all(
                     Radius.circular(10.0),
@@ -77,7 +75,7 @@ class LogoImageAssets extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    AssetImage assetImage = const AssetImage('assets/img/icon-arrow-down.svg');
+    AssetImage assetImage = const AssetImage('assets/img/corn.png');
 
     Image image = Image(image: assetImage, height: 100, width: 100);
     return Container(
